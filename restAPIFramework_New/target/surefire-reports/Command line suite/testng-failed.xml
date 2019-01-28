@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="restAPIFramework.api.test.GetStateDetailsTest">
+        <methods>
+          <include name="getStateDetailsAPITest"/>
+          <include name="dataSepUp"/>
+        </methods>
+      </class> <!-- restAPIFramework.api.test.GetStateDetailsTest -->
+      <class name="restAPIFramework.api.test.CreatePersionAPITest">
+        <methods>
+          <include name="createPersionAPITest"/>
+          <include name="dataSetUp"/>
+        </methods>
+      </class> <!-- restAPIFramework.api.test.CreatePersionAPITest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
